@@ -1,0 +1,70 @@
+.parent {
+    display: flex;
+    /* border: 5px solid brown; */
+    background-color: bisque;
+    height: 230px;
+    border-radius: 15px;
+    /* width: fit-content; */
+    /* width: 50%; */
+    /* width: 400px; */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    /* gap: 16px; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* align-items: flex-start; */
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+    /* flex-flow: row wrap; */
+}
+
+.children {
+    /* border: 5px solid blue; */
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 15px;
+    text-align: center;
+    /* flex-basis: 300px; */
+    /* flex-basis: 600px; */
+    /* flex-basis: 200px; */
+    /* flex-grow: 1; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 1; */
+    /* flex-shrink: 2; */
+}
+
+/* #biru.children   {
+    order: 3;
+    background-color: aqua;
+} */
+
+#burley {
+    order: 1;
+}
+
+#hijau  {
+    order: 2;
+}
+
+#biru   {
+    order: 3;
+}
+
+#unggu  {
+    order: 4;
+}
+
+#kuning {
+    order: 5;
+}
+
